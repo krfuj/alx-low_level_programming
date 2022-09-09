@@ -10,10 +10,10 @@ int main(void)
 	char chr;
 
 	for (chr = 'a'; chr <= 'z'; chr++)
-		putchar(chr);
+		putchar(chr\n);
 
 	for (chr = 'A'; chr <= 'Z'; chr++)
-		putchar(chr);
+		putchar(chr\n);
 
 
 
