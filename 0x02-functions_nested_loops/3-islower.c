@@ -5,11 +5,14 @@
  * Return: returns 0 if successful or 1 if otherwise
  */
 
-int  _islower(int c)
+int  _islower(int alpha)
 {
-	if(islower(c)){
-        return (1);
-    }else{
-        return (0);
-    }
+	if (alpha >= 'a' && alpha  <= 'z')
+	{
+		return (1);
+	}
+	else
+	{
+		return (0);
+	}
 }
