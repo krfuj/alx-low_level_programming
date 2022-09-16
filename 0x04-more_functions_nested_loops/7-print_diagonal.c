@@ -7,18 +7,20 @@ include "main.h"
 
 void print_diagonal(int n)
 {
-	int column, space, i;
+	int i;
+	int j;
 
 	if (n <= 0)
-		_putchar('\n');
-	else
 	{
-		for (column = 0; column < n; column++)
+		_putchar('\n');
+	} else
+	{
+		for (i = 0; i < n; i++)
 		{
-			i = column - 1;
-
-			for (space = 0; space <= i; space++)
+			for (j = 0; j < i; j++)
+			{
 				_putchar(' ');
+			}
 			_putchar('\\');
 			_putchar('\n');
 		}
