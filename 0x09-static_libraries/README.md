@@ -2,8 +2,8 @@
 ==========================
 
 -   By Julien Barbier
--   Ongoing project - started 09-17-2021, must end by 09-18-2021 (in about 7 hours) - you're done with 0% of tasks.
--   Checker will be released at 09-18-2021 12:00 AM
+-   Ongoing project -  Ongoing second chance project - started Sep 30, 2022 6:00 AM, must end by Oct 6, 2022 6:00 AM.
+-   An auto review will be launched at the deadline
 -   QA review fully automated.
 
 Concepts
